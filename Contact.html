@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+	<a class="navbar-brand" href="#">
+    <img src="photos/imge1.jpg" alt="Logo" style="width:40px; border-radius:40px">
+  </a>
+  <ul class="navbar-nav" style="background-color: navy ">
+    <li class="nav-item active">
+      <a class="nav-link" href="Mysite.html">Acceuil</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Blog.html">Blog</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Dashboard.html">Dashboard</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Contact.html">Contact</a>
+    </li>
+    
+  </ul>
+</nav>		
+<div class="row">
+  <div class="col-md-3" >
+    <div class="cadre1">
+       <h4>Tous les articles:</h4>
+          <ul >
+	           <li>Ocean</li>
+	           <li>Forêt</li>
+	           <li>Climat</li>
+	           <li>Alimentation</li>
+	           <li>Vie Sauvage</li>
+          </ul>
+    </div>
+  </div>
+  <div class="col-md-6" >
+          <h4>Contacez-nous:</h4>
+    <form action="/action_page.php">
+        <div class="form-group">
+          <label for="email">Nom:</label>
+          <input type="text" class="form-control" id="Nom" placeholder="Entrer votre Nom">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Prenom:</label>
+          <input type="text" class="form-control" id="Prenom" placeholder=" Entrer votre Prenom">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Adresse:</label>
+          <input type="text" class="form-control" id="Adresse" placeholder=" Entrer Votre Adresse">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Mail:</label>
+          <input type="Mail" class="form-control" id="Mail" placeholder=" Entrer votre email">
+        </div>
+    </form>
+    <button type="submit" class="btn btn-success">Submit</button>
+  </div>  
+ <div class="col-md-3 " >
+          <h4>creer nouveau article:</h4>
+    <form action="/action_page.php">
+        <div class="form-group">
+           <label for="Titre">Titre:</label>
+           <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+           <label for="Date">Date de Création:</label>
+           <input type="Date" class="form-control" id="date" placeholder="jj/mm/aaaa">
+        </div>
+    </form>
+       <div class="form-group">
+           <label for="comment">Contenue:</label>
+           <textarea class="form-control" rows="5" id="comment"></textarea>
+       </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+ </div>
+</div>
+<div style="background: azure">
+  <p>Copyright Tsihory 2020</p>
+</div>
+</body>
+</html>

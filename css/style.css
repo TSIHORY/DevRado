@@ -1,0 +1,17 @@
+
+    .nav-link i {
+    	font-size: 20px;
+      color: yellow;
+    }
+    
+    .icone i{
+    	font-size: 60px;
+    	
+    	color: blue;
+    }
+    .icone{
+    	text-align:left;
+    }
+    .span{
+    	color: red;
+    }
